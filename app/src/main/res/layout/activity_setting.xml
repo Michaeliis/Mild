@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Setting">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/condiment"
+        android:text="Setting"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/buttonSetting"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp"
+        android:background="@drawable/rectangle_brown"
+        android:text="Ok"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonBackSetting"
+        android:layout_width="310dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle_brown"
+        android:text="Back"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="122dp"
+        android:text="Jarak Antar Menstruasi"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editRangeSetting"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="176dp"
+        android:ems="10"
+        android:hint="Hari"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="239dp"
+        android:text="Rentang Waktu Menstruasi"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editSpanSetting"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:hint="Hari"
+        android:inputType="number" />
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/condiment"
+        android:text="Register"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="127dp"
+        android:text="Menstruasi Terakhir"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editLast"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="190dp"
+        android:ems="10"
+        android:hint="Tahun-Bulan-Tanggal"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rectangle_brown"
+        android:text="Ok"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="249dp"
+        android:text="Jarak Antar Menstruasi"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editRange"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="313dp"
+        android:ems="10"
+        android:hint="Hari"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editRange"
+        android:layout_alignStart="@+id/editRange"
+        android:layout_marginBottom="-313dp"
+        android:text="Jarak Tanggal Satu Menstruasi dengan Selanjutnya \n(cont: 28)" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="376dp"
+        android:text="Rentang Waktu Menstruasi"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editSpan"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="427dp"
+        android:ems="10"
+        android:hint="Hari"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editSpan"
+        android:layout_alignStart="@+id/editSpan"
+        android:layout_marginBottom="-427dp"
+        android:text="Lamanya Sekali Menstruasi (cont: 7)" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editLast"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginBottom="-190dp"
+        android:text="Tanggal Mulai Menstruasi Terakhir \n(cont: 2018-12-31)" />
+
+</RelativeLayout>
